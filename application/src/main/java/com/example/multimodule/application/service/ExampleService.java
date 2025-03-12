@@ -1,7 +1,7 @@
 package com.example.multimodule.application.service;
 
 import com.example.multimodule.domain.Example;
-import com.example.multimodule.infrastructure.repository.ExampleRepository;
+import com.example.multimodule.domain.repository.ExampleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

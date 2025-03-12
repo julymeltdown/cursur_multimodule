@@ -1,0 +1,3 @@
+@echo off
+echo Starting MultiModule Application...
+gradlew :api:bootRun 

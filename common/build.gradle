@@ -1,11 +1,6 @@
 dependencies {
-    // 공통 유틸리티 의존성
 }
 
-bootJar {
-    enabled = false
-}
+// 공통 유틸리티 의존성이 필요할 경우 여기에 추가
 
-jar {
-    enabled = true
-} 
+// bootJar와 jar 설정은 루트 build.gradle에 이미 정의되어 있으므로 제거 
