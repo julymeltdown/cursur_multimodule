@@ -1,0 +1,11 @@
+dependencies {
+    // 공통 유틸리티 의존성
+}
+
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+} 
